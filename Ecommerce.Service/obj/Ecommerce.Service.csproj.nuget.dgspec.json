@@ -11,7 +11,7 @@
         "projectName": "Ecommerce.Service",
         "projectPath": "C:\\Users\\Pedro Fuentes\\source\\repos\\Ecommerce.API\\Ecommerce.Service\\Ecommerce.Service.csproj",
         "packagesPath": "C:\\Users\\Pedro Fuentes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pedro Fuentes\\source\\repos\\Ecommerce.API\\Ecommerce.Service\\obj\\",
+        "outputPath": "C:\\Users\\Pedro Fuentes\\Source\\Repos\\Ecommerce.API\\Ecommerce.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

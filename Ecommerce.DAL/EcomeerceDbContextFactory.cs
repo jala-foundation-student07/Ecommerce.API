@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,21 +10,22 @@ using Microsoft.Extensions.Configuration;
 
 namespace Ecommerce.DAL
 {
-    public class EcomeerceDbContextFactory : IDesignTimeDbContextFactory<EcomerceDbContext>
+    public class EcomeerceDbContextFactory : IDesignTimeDbContextFactory<EcommerceDbContext>
     {
         private IConfiguration Configuration => new ConfigurationBuilder()
-            .SetBasePath("appsettings.json")
+            .SetBasePath(Directory.GetCurrentDirectory())
+            .AddJsonFile("appsettings.json")
             .Build();
 
-        public EcomerceDbContext CreateDbContext(string[] args)
+        public EcommerceDbContext CreateDbContext(string[] args)
         {
-            var optionsBuilder = new DbContextOptionsBuilder<EcomerceDbContext>();
+            var optionsBuilder = new DbContextOptionsBuilder<EcommerceDbContext>();
             optionsBuilder.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
                 options =>
                 {
                     options.EnableRetryOnFailure();
                 });
-            return new EcomerceDbContext(optionsBuilder.Options);
+            return new EcommerceDbContext(optionsBuilder.Options);
         }
     }
 }

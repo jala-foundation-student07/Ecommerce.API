@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Ecommerce.DAL
 {
-    public class EcomerceDbContext : DbContext
+    public class EcommerceDbContext : DbContext
     {
-        public EcomerceDbContext(DbContextOptions options) : base(options) {}
+        public EcommerceDbContext(DbContextOptions options) : base(options) {}
 
         public DbSet<User> Users { get; set; }
         public DbSet<Product> Products { get; set; }

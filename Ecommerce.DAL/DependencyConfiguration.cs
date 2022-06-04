@@ -17,7 +17,7 @@ namespace Ecommerce.DAL
 
         public static void ConfigureDalDbContexts(this IServiceCollection services, string connectionString, bool asNoTracking)
         {
-            services.AddDbContextPool<EcomerceDbContext>(optionsBuilder =>
+            services.AddDbContextPool<EcommerceDbContext>(optionsBuilder =>
             {
                 optionsBuilder.UseSqlServer(connectionString, options =>
                 {
