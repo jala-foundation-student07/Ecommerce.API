@@ -250,7 +250,7 @@
         "projectName": "Ecommerce.Service",
         "projectPath": "C:\\Users\\Pedro Fuentes\\source\\repos\\Ecommerce.API\\Ecommerce.Service\\Ecommerce.Service.csproj",
         "packagesPath": "C:\\Users\\Pedro Fuentes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pedro Fuentes\\Source\\Repos\\Ecommerce.API\\Ecommerce.Service\\obj\\",
+        "outputPath": "C:\\Users\\Pedro Fuentes\\source\\repos\\Ecommerce.API\\Ecommerce.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -270,7 +270,14 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Pedro Fuentes\\source\\repos\\Ecommerce.API\\Ecommerce.DAL\\Ecommerce.DAL.csproj": {
+                "projectPath": "C:\\Users\\Pedro Fuentes\\source\\repos\\Ecommerce.API\\Ecommerce.DAL\\Ecommerce.DAL.csproj"
+              },
+              "C:\\Users\\Pedro Fuentes\\source\\repos\\Ecommerce.API\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+                "projectPath": "C:\\Users\\Pedro Fuentes\\source\\repos\\Ecommerce.API\\Ecommerce.Models\\Ecommerce.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

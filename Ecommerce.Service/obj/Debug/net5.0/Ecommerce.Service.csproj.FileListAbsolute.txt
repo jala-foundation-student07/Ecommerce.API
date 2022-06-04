@@ -10,3 +10,8 @@ C:\Users\Pedro Fuentes\source\repos\Ecommerce.API\Ecommerce.Service\obj\Debug\ne
 C:\Users\Pedro Fuentes\source\repos\Ecommerce.API\Ecommerce.Service\obj\Debug\net5.0\refint\Ecommerce.Service.dll
 C:\Users\Pedro Fuentes\source\repos\Ecommerce.API\Ecommerce.Service\obj\Debug\net5.0\Ecommerce.Service.pdb
 C:\Users\Pedro Fuentes\source\repos\Ecommerce.API\Ecommerce.Service\obj\Debug\net5.0\ref\Ecommerce.Service.dll
+C:\Users\Pedro Fuentes\source\repos\Ecommerce.API\Ecommerce.Service\bin\Debug\net5.0\Ecommerce.DAL.dll
+C:\Users\Pedro Fuentes\source\repos\Ecommerce.API\Ecommerce.Service\bin\Debug\net5.0\Ecommerce.Models.dll
+C:\Users\Pedro Fuentes\source\repos\Ecommerce.API\Ecommerce.Service\bin\Debug\net5.0\Ecommerce.DAL.pdb
+C:\Users\Pedro Fuentes\source\repos\Ecommerce.API\Ecommerce.Service\bin\Debug\net5.0\Ecommerce.Models.pdb
+C:\Users\Pedro Fuentes\source\repos\Ecommerce.API\Ecommerce.Service\obj\Debug\net5.0\Ecommerce.Service.csproj.CopyComplete
