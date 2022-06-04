@@ -10,3 +10,9 @@ C:\Users\Pedro Fuentes\source\repos\Ecommerce.API\Ecommerce.DAL\obj\Debug\net5.0
 C:\Users\Pedro Fuentes\source\repos\Ecommerce.API\Ecommerce.DAL\obj\Debug\net5.0\refint\Ecommerce.DAL.dll
 C:\Users\Pedro Fuentes\source\repos\Ecommerce.API\Ecommerce.DAL\obj\Debug\net5.0\Ecommerce.DAL.pdb
 C:\Users\Pedro Fuentes\source\repos\Ecommerce.API\Ecommerce.DAL\obj\Debug\net5.0\ref\Ecommerce.DAL.dll
+C:\Users\Pedro Fuentes\source\repos\Ecommerce.API\Ecommerce.DAL\bin\Debug\net5.0\Ecommerce.DAL.runtimeconfig.json
+C:\Users\Pedro Fuentes\source\repos\Ecommerce.API\Ecommerce.DAL\bin\Debug\net5.0\Ecommerce.DAL.runtimeconfig.dev.json
+C:\Users\Pedro Fuentes\source\repos\Ecommerce.API\Ecommerce.DAL\bin\Debug\net5.0\Ecommerce.Models.dll
+C:\Users\Pedro Fuentes\source\repos\Ecommerce.API\Ecommerce.DAL\bin\Debug\net5.0\Ecommerce.Models.pdb
+C:\Users\Pedro Fuentes\source\repos\Ecommerce.API\Ecommerce.DAL\obj\Debug\net5.0\Ecommerce.DAL.csproj.CopyComplete
+C:\Users\Pedro Fuentes\source\repos\Ecommerce.API\Ecommerce.DAL\obj\Debug\net5.0\Ecommerce.DAL.genruntimeconfig.cache
