@@ -1416,6 +1416,10 @@
         }
       },
       "Ecommerce.Service/1.0.0": {
+        "dependencies": {
+          "Ecommerce.DAL": "1.0.0",
+          "Ecommerce.Models": "1.0.0"
+        },
         "runtime": {
           "Ecommerce.Service.dll": {}
         },

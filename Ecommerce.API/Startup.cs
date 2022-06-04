@@ -11,6 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Ecommerce.Service;
 
 namespace Ecommerce.API
 {
@@ -26,6 +27,12 @@ namespace Ecommerce.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper(typeof(Mappings.CommonProfile));
+            services.AddControllersWithViews().AddNewtonsoftJson();
+
+            services.ConfigureServiceDependencies();
+
+            services.ConfigureServiceDbContexts(Configuration.GetConnectionString("DefaultConnection"));
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
